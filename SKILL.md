@@ -15,7 +15,7 @@ Run exactly this one script from the current working directory unless the user s
 & "$env:SystemRoot\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -ExecutionPolicy Bypass -File "$HOME\.codex\skills\fetch-image\scripts\fetch-image.ps1"
 ```
 
-The script performs the complete operation in one pass, omits the first 140 pixel rows, and writes exactly one PNG named `image-yyyyMMdd-HHmmss.png`.
+The script performs the complete operation in one pass, captures at the display's physical pixel resolution, omits the first 140 and last 100 pixel rows, and writes exactly one PNG named `image-yyyyMMdd-HHmmss.png`.
 
 ## Rules
 
