@@ -1,0 +1,4 @@
+interface:
+  display_name: "Fetch Image"
+  short_description: "Fetch the latest image using one deterministic script."
+  default_prompt: "Use $fetch-image to fetch the latest image with its single script."
